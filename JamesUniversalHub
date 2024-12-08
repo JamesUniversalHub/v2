@@ -1,0 +1,113 @@
+local Notifications = loadstring(game:HttpGet("https://raw.githubusercontent.com/tacolift/notification-library/main/library.lua"))()
+Notifications.Create("James Universal Hub V2", "Welcome to James's Universal Hub V2! Just wait for a couple seconds...", 1, Color3.fromRGB(102,14,96))
+-- First argument is the title, second one's the description, third one's the time and the last one's the title color.
+task.wait(1)
+Notifications.Clear()
+
+--here is it loads my script
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("James Universal Hub V2", "GrapeTheme")
+
+
+--Universal
+local Main = Window:NewTab("Universal")
+local MainSection = Main:NewSection("Fun/Universal Stuff 1+ NEW SCRIPT ADDEd")
+
+MainSection:NewButton("Chat Bypass", "You can say cuss words without it being tagged", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AlgariBot/lua/refs/heads/Lua-Script-Executor/LocalNeverPatchedBypass.txt"))()
+end)
+
+MainSection:NewButton("Script Hub V3", "Best Universal Hub", function()
+    loadstring(game:HttpGet("https://github.com/scripthubekitten/eee/raw/refs/heads/main/eezas", true))()
+end)
+
+MainSection:NewButton("Infinite Yelid", "The IY Hub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+MainSection:NewButton("Nameless Admin", "uhh admin ", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()
+end)
+
+MainSection:NewButton("Owl Hub", "UNIVERSAL", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
+end)
+
+MainSection:NewButton("AimBot", "uhh lock ", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub/main/AirHub.lua"))()
+end)
+
+
+--MM2
+local MM2 = Window:NewTab("Murder Mystery 2")
+local MM2Section = MM2:NewSection("MM2 GUIs/Scripts")
+
+MM2Section:NewButton("XHub", "my fav mm2 one ngl", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
+end)
+
+MM2Section:NewButton("R3th Pr1v", "mm2 gui cool", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Dekos-lgbty/imp/main/mm2"))()
+end)
+
+
+--HB
+local HB = Window:NewTab("Heroes Battlegrounds")
+local HBSection = HB:NewSection("HB GUIs/Scripts")
+
+HBSection:NewButton("Imp Hub", "Heroes Battlegrounds: Auto Farm, Hunt Players, Auto Attack, Anti Ragdoll, Anti Stun, Auto Skills, AND MORE!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
+end)
+
+
+--Stb
+local STB = Window:NewTab("The Strongest Battlegrounds")
+local STBSection = STB:NewSection("STB GUIs/Scripts")
+
+STBSection:NewButton("Speed Hub X", "poop", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
+end)
+
+STBSection:NewButton("SkibidiCen", "poop", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SkibidiCen/MainMenu/main/Code'))()
+end)
+
+
+--BH
+local BH = Window:NewTab("Brookhaven")
+local BHSection = BH:NewSection("Brookhaven GUIs/Scripts")
+
+BHSection:NewButton("Brookhaven GUI", "troll 9 yr olds", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/sXPiterXs1111/SanderXV2.5/main/SanderXV2.5.lua')))()
+end)
+
+
+--TOH
+local TOH = Window:NewTab("Tower Of Hell")
+local TOHSection = TOH:NewSection("Tower Of Heck GUIs/Scripts")
+
+TOHSection:NewButton("SprinHub", "fuck with 9 yr olds", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/dqvh/dqvh/main/SprinHub",true))()
+end)
+
+
+--RIV
+local RIV = Window:NewTab("Rivals")
+local RIVSection = RIV:NewSection("RIVALS Scripts and guis")
+
+RNGSection:NewButton("AimBot", "use camera lock", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))()
+end)
+
+
+--Credits
+local Credits = Window:NewTab("Credits")
+local CreditsSection = Credits:NewSection("WEBSITE: jameshub..bio.link ❤️‍🔥")
+
+Section:NewLabel("websites is: jammeshub.bio.link")
+
+Section:NewDropdown("WEBSITE IS BELOW!!", "DropdownInf", {"jameshub.bio.link", "jameshub.bio.link", "jameshub.bio.link"}, function(currentOption)
+    print(currentOption)
+end)
+------------------------------ayooo chill 
+
